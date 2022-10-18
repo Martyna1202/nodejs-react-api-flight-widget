@@ -7,7 +7,7 @@ dotenv.config();
 
 app.use(express.static("public"));
 
-app.get("/api/flights", (req, res) => {
+app.get("/flights", (req, res) => {
   const options = {
     //  WITH LIVE API FROM TORONTO-AIRPORT
     method: "GET",
