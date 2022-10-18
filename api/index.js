@@ -1,13 +1,13 @@
 import express from "express";
 import dotenv from "dotenv";
 import axios from "axios";
-
+//"rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
 const app = express();
 dotenv.config();
 
 app.use(express.static("public"));
 
-app.get("/flights", (req, res) => {
+app.get("/api/flights", (req, res) => {
   const options = {
     //  WITH LIVE API FROM TORONTO-AIRPORT
     method: "GET",
