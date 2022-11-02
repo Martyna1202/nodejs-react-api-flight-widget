@@ -6,11 +6,14 @@
 
 ### Node.js
 
-### Database
+### API
 
 #### to start this project type:
 
-#### `npm run start:frontend` && `npm run start`
+#### root-folder: flight-widget &
+
+#### first CLI: `npm run start:frontend`
+
+#### & second CLI `npm run start`
 
 [http://localhost:3000](http://localhost:3000) for the browser
-# nodejs-react-api-flight-widget
